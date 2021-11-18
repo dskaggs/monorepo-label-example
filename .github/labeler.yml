@@ -1,0 +1,38 @@
+# This file manages the labels automatically applied to PRs based on the files changed
+
+platform/web:
+- libs/web/**/*
+- apps/angular-app-one/**/*
+- apps/react-app-one/**/*
+
+platform/server:
+- libs/server/**/*
+- apps/node-app-one/**/*
+
+stack/angular:
+- libs/web/angular/**/*
+- apps/angular-app-one/**/*
+
+stack/react:
+- libs/web/react/**/*
+- apps/react-app-one/**/*
+
+stack/node:
+- libs/server/node-app-one/**/*
+- apps/node-app-one/**/*
+
+area/shared:
+- libs/web/angular/shared/**/*
+- libs/web/react/shared/**/*
+
+area/angular-app-one:
+- libs/web/angular/angular-app-one/**/*
+- apps/angular-app-one/**/*
+
+area/react-app-one:
+- libs/web/react/react-app-one/**/*
+- apps/react-app-one/**/*
+
+area/node-app-one:
+- libs/server/node-app-one/**/*
+- apps/node-app-one/**/*
