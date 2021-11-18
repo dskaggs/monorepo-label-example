@@ -7,6 +7,7 @@
     "react-app-one": "apps/react-app-one",
     "react-app-one-e2e": "apps/react-app-one-e2e",
     "server-node-app-one-feature-some-lib-one": "libs/server/node-app-one/feature/some-lib-one",
+    "server-node-app-one-feature-some-lib-three": "libs/server/node-app-one/feature/some-lib-three",
     "server-node-app-one-feature-some-lib-two": "libs/server/node-app-one/feature/some-lib-two",
     "server-node-app-one-shared-data-access-some-api-one": "libs/server/node-app-one/shared/data-access/some-api-one",
     "server-node-app-one-shared-data-access-some-api-two": "libs/server/node-app-one/shared/data-access/some-api-two",
