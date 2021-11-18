@@ -18,6 +18,9 @@
       "@monorepo-label-example/server/node-app-one/feature/some-lib-one": [
         "libs/server/node-app-one/feature/some-lib-one/src/index.ts"
       ],
+      "@monorepo-label-example/server/node-app-one/feature/some-lib-three": [
+        "libs/server/node-app-one/feature/some-lib-three/src/index.ts"
+      ],
       "@monorepo-label-example/server/node-app-one/feature/some-lib-two": [
         "libs/server/node-app-one/feature/some-lib-two/src/index.ts"
       ],
