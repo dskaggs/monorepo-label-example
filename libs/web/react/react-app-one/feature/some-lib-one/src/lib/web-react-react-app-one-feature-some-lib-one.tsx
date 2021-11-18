@@ -9,6 +9,7 @@ export function WebReactReactAppOneFeatureSomeLibOne(
   return (
     <div>
       <h1>Welcome to WebReactReactAppOneFeatureSomeLibOne!</h1>
+      <h2>Thoughtfully and carefully created by Dan!</h2>
     </div>
   );
 }
