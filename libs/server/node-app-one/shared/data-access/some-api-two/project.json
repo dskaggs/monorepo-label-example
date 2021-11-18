@@ -1,0 +1,27 @@
+{
+  "root": "libs/server/node-app-one/shared/data-access/some-api-two",
+  "sourceRoot": "libs/server/node-app-one/shared/data-access/some-api-two/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/server/node-app-one/shared/data-access/some-api-two/**/*.ts"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": [
+        "coverage/libs/server/node-app-one/shared/data-access/some-api-two"
+      ],
+      "options": {
+        "jestConfig": "libs/server/node-app-one/shared/data-access/some-api-two/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,4 +1,26 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "angular-app-one": "apps/angular-app-one",
+    "angular-app-one-e2e": "apps/angular-app-one-e2e",
+    "node-app-one": "apps/node-app-one",
+    "react-app-one": "apps/react-app-one",
+    "react-app-one-e2e": "apps/react-app-one-e2e",
+    "server-node-app-one-feature-some-lib-one": "libs/server/node-app-one/feature/some-lib-one",
+    "server-node-app-one-feature-some-lib-two": "libs/server/node-app-one/feature/some-lib-two",
+    "server-node-app-one-shared-data-access-some-api-one": "libs/server/node-app-one/shared/data-access/some-api-one",
+    "server-node-app-one-shared-data-access-some-api-two": "libs/server/node-app-one/shared/data-access/some-api-two",
+    "web-angular-angular-app-one-feature-some-lib-one": "libs/web/angular/angular-app-one/feature/some-lib-one",
+    "web-angular-angular-app-one-feature-some-lib-two": "libs/web/angular/angular-app-one/feature/some-lib-two",
+    "web-angular-angular-app-one-shared-data-access-some-api-one": "libs/web/angular/angular-app-one/shared/data-access/some-api-one",
+    "web-angular-angular-app-one-shared-ui-some-lib-one": "libs/web/angular/angular-app-one/shared/ui/some-lib-one",
+    "web-angular-shared-data-access-some-api-one": "libs/web/angular/shared/data-access/some-api-one",
+    "web-angular-shared-ui-some-lib-one": "libs/web/angular/shared/ui/some-lib-one",
+    "web-react-react-app-one-feature-some-lib-one": "libs/web/react/react-app-one/feature/some-lib-one",
+    "web-react-react-app-one-feature-some-lib-two": "libs/web/react/react-app-one/feature/some-lib-two",
+    "web-react-react-app-one-shared-data-access-some-api-one": "libs/web/react/react-app-one/shared/data-access/some-api-one",
+    "web-react-react-app-one-shared-ui-some-lib-one": "libs/web/react/react-app-one/shared/ui/some-lib-one",
+    "web-react-shared-data-access-some-api-one": "libs/web/react/shared/data-access/some-api-one",
+    "web-react-shared-ui-some-lib-one": "libs/web/react/shared/ui/some-lib-one"
+  }
 }

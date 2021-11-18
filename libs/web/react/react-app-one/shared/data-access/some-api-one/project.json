@@ -1,0 +1,27 @@
+{
+  "root": "libs/web/react/react-app-one/shared/data-access/some-api-one",
+  "sourceRoot": "libs/web/react/react-app-one/shared/data-access/some-api-one/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/react/react-app-one/shared/data-access/some-api-one/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": [
+        "coverage/libs/web/react/react-app-one/shared/data-access/some-api-one"
+      ],
+      "options": {
+        "jestConfig": "libs/web/react/react-app-one/shared/data-access/some-api-one/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

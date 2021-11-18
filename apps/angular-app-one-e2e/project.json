@@ -1,0 +1,28 @@
+{
+  "root": "apps/angular-app-one-e2e",
+  "sourceRoot": "apps/angular-app-one-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/angular-app-one-e2e/cypress.json",
+        "devServerTarget": "angular-app-one:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "angular-app-one:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/angular-app-one-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["angular-app-one"]
+}

@@ -1,0 +1,25 @@
+{
+  "root": "libs/server/node-app-one/feature/some-lib-two",
+  "sourceRoot": "libs/server/node-app-one/feature/some-lib-two/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/server/node-app-one/feature/some-lib-two/**/*.ts"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/server/node-app-one/feature/some-lib-two"],
+      "options": {
+        "jestConfig": "libs/server/node-app-one/feature/some-lib-two/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

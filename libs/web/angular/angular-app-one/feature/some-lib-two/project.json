@@ -1,0 +1,28 @@
+{
+  "projectType": "library",
+  "root": "libs/web/angular/angular-app-one/feature/some-lib-two",
+  "sourceRoot": "libs/web/angular/angular-app-one/feature/some-lib-two/src",
+  "prefix": "monorepo-label-example",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": [
+        "coverage/libs/web/angular/angular-app-one/feature/some-lib-two"
+      ],
+      "options": {
+        "jestConfig": "libs/web/angular/angular-app-one/feature/some-lib-two/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/angular/angular-app-one/feature/some-lib-two/src/**/*.ts",
+          "libs/web/angular/angular-app-one/feature/some-lib-two/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

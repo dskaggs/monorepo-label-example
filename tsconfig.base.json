@@ -14,7 +14,56 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@monorepo-label-example/server/node-app-one/feature/some-lib-one": [
+        "libs/server/node-app-one/feature/some-lib-one/src/index.ts"
+      ],
+      "@monorepo-label-example/server/node-app-one/feature/some-lib-two": [
+        "libs/server/node-app-one/feature/some-lib-two/src/index.ts"
+      ],
+      "@monorepo-label-example/server/node-app-one/shared/data-access/some-api-one": [
+        "libs/server/node-app-one/shared/data-access/some-api-one/src/index.ts"
+      ],
+      "@monorepo-label-example/server/node-app-one/shared/data-access/some-api-two": [
+        "libs/server/node-app-one/shared/data-access/some-api-two/src/index.ts"
+      ],
+      "@monorepo-label-example/web/angular/angular-app-one/feature/some-lib-one": [
+        "libs/web/angular/angular-app-one/feature/some-lib-one/src/index.ts"
+      ],
+      "@monorepo-label-example/web/angular/angular-app-one/feature/some-lib-two": [
+        "libs/web/angular/angular-app-one/feature/some-lib-two/src/index.ts"
+      ],
+      "@monorepo-label-example/web/angular/angular-app-one/shared/data-access/some-api-one": [
+        "libs/web/angular/angular-app-one/shared/data-access/some-api-one/src/index.ts"
+      ],
+      "@monorepo-label-example/web/angular/angular-app-one/shared/ui/some-lib-one": [
+        "libs/web/angular/angular-app-one/shared/ui/some-lib-one/src/index.ts"
+      ],
+      "@monorepo-label-example/web/angular/shared/data-access/some-api-one": [
+        "libs/web/angular/shared/data-access/some-api-one/src/index.ts"
+      ],
+      "@monorepo-label-example/web/angular/shared/ui/some-lib-one": [
+        "libs/web/angular/shared/ui/some-lib-one/src/index.ts"
+      ],
+      "@monorepo-label-example/web/react/react-app-one/feature/some-lib-one": [
+        "libs/web/react/react-app-one/feature/some-lib-one/src/index.ts"
+      ],
+      "@monorepo-label-example/web/react/react-app-one/feature/some-lib-two": [
+        "libs/web/react/react-app-one/feature/some-lib-two/src/index.ts"
+      ],
+      "@monorepo-label-example/web/react/react-app-one/shared/data-access/some-api-one": [
+        "libs/web/react/react-app-one/shared/data-access/some-api-one/src/index.ts"
+      ],
+      "@monorepo-label-example/web/react/react-app-one/shared/ui/some-lib-one": [
+        "libs/web/react/react-app-one/shared/ui/some-lib-one/src/index.ts"
+      ],
+      "@monorepo-label-example/web/react/shared/data-access/some-api-one": [
+        "libs/web/react/shared/data-access/some-api-one/src/index.ts"
+      ],
+      "@monorepo-label-example/web/react/shared/ui/some-lib-one": [
+        "libs/web/react/shared/ui/some-lib-one/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
